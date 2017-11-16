@@ -1,0 +1,22 @@
+{
+  "name": "bibliotheque-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:Tcheny/bibliotheque-api.git",
+  "author": "Tcheny",
+  "license": "MIT",
+  "scripts": {
+    "babel": "babel-node --presets es2015",
+    "dev": "nodemon --exec yarn run babel src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "moment": "^2.19.2",
+    "mongoose": "^4.13.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
