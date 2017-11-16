@@ -16,10 +16,10 @@ les routes seront standard : (sous la forme /simplonBook/ )
 * DELETE
 
 Le schéma d'un livre selon cet exemple :
-      `titre:
-      auteur:
-      annee_de_publication:
-      pages:
-      date_de_creation:`
+      `titre:`
+      `auteur:`
+      `annee_de_publication:`
+      `pages:`
+      `date_de_creation:`
 
 Nous devrions être en capacité de voir/ajouter/modifier/supprimer un livre de la bibliothèque.
