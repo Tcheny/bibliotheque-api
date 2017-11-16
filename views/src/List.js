@@ -8,6 +8,11 @@ import TextField from 'material-ui/TextField';
 const style = {
   margin: 12,
 };
+
+const customContentStyle = {
+  textAlign : 'center'
+};
+
 class List extends Component {
   constructor(props) {
   super(props);
@@ -42,6 +47,8 @@ handleClose = () => {
                 modal={false}
                 open={this.state.open}
                 onRequestClose={this.handleClose}
+                autoScrollBodyContent={true}
+                contentStyle={customContentStyle}
               >
                 <Form action={`http://localhost:8001/simplonBook/update/${book._id}`}/>
               </Dialog>
