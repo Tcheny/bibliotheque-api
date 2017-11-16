@@ -28,7 +28,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Librairies Simplon</h1>
+        <h1>Librairie Simplon</h1>
         <MuiThemeProvider>
           <Form action="http://localhost:8001/simplonBook/add"/>
           <List books={this.state.books}/>

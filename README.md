@@ -6,7 +6,7 @@ Gestion d'une Bibliothèque [simplonBook]
 ## Gestion d'une Bibliothèque
 
 Vous allez dans un premier temps devoir définir les wireframes de vos écrans de navigation.
-
+* SimplonBook.pdf
 Vous aurez la responsabilité de justifier vos choix technologiques.
 
 les routes seront standard : (sous la forme /simplonBook/ )
@@ -18,7 +18,7 @@ les routes seront standard : (sous la forme /simplonBook/ )
 Le schéma d'un livre selon cet exemple :
       `titre:
       auteur:
-      année_de_publication:
+      annee_de_publication:
       pages:
       date_de_creation:`
 
