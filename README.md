@@ -9,7 +9,7 @@ Vous allez dans un premier temps devoir définir les wireframes de vos écrans
 * SimplonBook.pdf
 
 Vous aurez la responsabilité de justifier vos choix technologiques.
-*RecapEtapes.pdt
+* RecapEtapes.pdt
 
 les routes seront standard : (sous la forme /simplonBook/ )
 * GET
